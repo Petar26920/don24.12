@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="skripta.js"></script>
+    <title>RegEx</title>
+</head>
+<body>
+    <form name="forma" action="" method="POST">
+        <div>Kontakt forma</div>
+        <input type="text" name="ime" id="" placeholder="Vase ime i prezime" required><br>
+        <input type="text" name="imejl" id="" placeholder="Vas imejl" required><br>
+        <input type="text" name="brtel" id="" placeholder="Vas broj telefona" required>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="button" value="Posaljite" onclick="posalji()">
+    </form>
+    <script lang="JavaScript">
+
+        //Proveriti mejl adresu validaciju u sledecem obliku ime moze da sadrzi mala slova, velika slova, brojeve od minimum 2 do maksimum 64 karaktera. Nakon toga je 
+        // obavezan znak @ nakon koga domen moze da sadrzi samo mala slova od minimum 2 do maksimum 32 karaktera nakon koga je obavezan unos tacke nakon koga je top level domen (TLD)
+        // koji moze biti samo od 2 do 6 karaktera
+
+
+
+        //A sada zelimo da ime moze biti uneto a ne mora, ako jeste uneto, nakon njega mora biti uneta . i prezime koje je obavezno
+
+
+        //Uraditi validaciju web adrese u sledecem formatu HTTP moze ne mora HTTPS moze ne mora. Ako se http i https unese, obavezan je unos :// ako se ne unesu www canonical name je obavezan
+        // nakon cega je obavezan unos tacke nakon cega je domen samo malih slova od 2 do 64 karaktera nakon cega je obavezan unos tacke nakon cega sledi TLD od 2 do 6 karaktera samo malih slova.
+
+
+        /*OKT 2 2020
+            Napraviti formu kao sto izgleda na slici sa eksternim css-om i eksternim js-om i validaciju mail adrese ime prezime @gmail.com
+            event handler onclick
+        */
+        
+        }
+    </script>
+</body>
+</html>
